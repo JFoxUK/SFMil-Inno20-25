@@ -1,0 +1,35 @@
+.resource-tile {
+    border: 1px solid #5d82d2;
+    background-color: #e1e6f6;
+    border-radius: .25rem;
+    display: block;
+  }
+  .resource-MilAstro {
+    height: 100px;
+  }
+  .resource-tile-body {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 80%, #e1e6f6 100%);
+  }
+
+.resource-tile:hover .slds-card {
+    border: 1px solid #4b649b;
+    background-color: #e1e6f5;
+}
+
+.resource-tile .slds-card {
+    border: 1px solid #5d82d2;
+    background-color: #f1f0fb;
+    transition: border 0.5s, background-color 0.5s;
+}
+
+.resource-tile .slds-card__header {
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid #5d82d2;
+    border-radius: 4px 4px 0 0;
+    background-color: #5d82d278;
+    color: #191d53;
+}
+
+.resource-tile-button {
+    fill: #191d53;
+}
